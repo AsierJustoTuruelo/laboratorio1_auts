@@ -18,12 +18,17 @@ with open("filtrados.txt", "w") as output:
     for dominio in filtrados:
         output.write(dominio + "\n")
 
+# Expresión regular para capturar direcciones IP
+ip_pattern = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
+
 # Realizar un escaneo de Nmap en cada dominio filtrado
 print("Ejecutando nmap...")
 with open("ips_con_mascara.txt", "w") as output:
     for dominio in filtrados:
         result = subprocess.run(f"nmap -sn {dominio}", shell=True, capture_output=True, text=True)
-        output.write(result.stdout)
-        print(result.stdout)
+        ips = ip_pattern.findall(result.stdout)
+        for ip in ips:
+            output.write(f"{ip}\n")
+            print(ip)
 
 print("Proceso completado. Resultados guardados en 'ips_con_mascara.txt'")
