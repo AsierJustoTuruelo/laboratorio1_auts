@@ -1,0 +1,213 @@
+┌──(kali㉿kali)-[~/Desktop/auts/4.2.5]
+└─$ dig NS ole.com.ar
+
+
+; <<>> DiG 9.20.2-1-Debian <<>> NS ole.com.ar
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53814
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 13
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;ole.com.ar.                    IN      NS
+
+;; ANSWER SECTION:
+ole.com.ar.             86400   IN      NS      cash.ns.cloudflare.com.
+ole.com.ar.             86400   IN      NS      vita.ns.cloudflare.com.
+
+;; ADDITIONAL SECTION:
+cash.ns.cloudflare.com. 9593    IN      A       173.245.59.81
+cash.ns.cloudflare.com. 9593    IN      A       108.162.193.81
+cash.ns.cloudflare.com. 9593    IN      A       172.64.33.81
+cash.ns.cloudflare.com. 9884    IN      AAAA    2a06:98c1:50::ac40:2151
+cash.ns.cloudflare.com. 9884    IN      AAAA    2803:f800:50::6ca2:c151
+cash.ns.cloudflare.com. 9884    IN      AAAA    2606:4700:58::adf5:3b51
+vita.ns.cloudflare.com. 9662    IN      A       172.64.32.238
+vita.ns.cloudflare.com. 9662    IN      A       173.245.58.238
+vita.ns.cloudflare.com. 9662    IN      A       108.162.192.238
+vita.ns.cloudflare.com. 40657   IN      AAAA    2a06:98c1:50::ac40:20ee
+vita.ns.cloudflare.com. 40657   IN      AAAA    2803:f800:50::6ca2:c0ee
+vita.ns.cloudflare.com. 40657   IN      AAAA    2606:4700:50::adf5:3aee
+
+;; Query time: 32 msec
+;; SERVER: 80.58.61.250#53(80.58.61.250) (UDP)
+;; WHEN: Mon Dec 02 07:04:32 EST 2024
+;; MSG SIZE  rcvd: 358
+
+                                                                                                                                                          
+┌──(kali㉿kali)-[~/Desktop/auts/4.2.5]
+└─$ # For each domain, use dig to check DNSSEC support
+dig +short +dnssec upm.es
+dig +short +dnssec ole.com.ar
+dig +short +dnssec telefonica.com
+dig +short +dnssec apple.com
+138.100.200.6
+104.18.22.45
+0.0.0.0
+;; communications error to 80.58.61.250#53: timed out
+;; communications error to 80.58.61.250#53: timed out
+;; communications error to 80.58.61.250#53: timed out
+;; communications error to 80.58.61.254#53: timed out
+;; no servers could be reached
+17.253.144.10
+                                                                                                                                                          
+┌──(kali㉿kali)-[~/Desktop/auts/4.2.5]
+└─$ # Attempt zone transfer for each domain (carefully, only on domains you have permission)
+dig AXFR upm.es @galileo.ccupm.upm.es
+dig AXFR ole.com.ar @cash.ns.cloudflare.com
+dig AXFR telefonica.com @dns1.movistar.es
+dig AXFR apple.com @a.ns.apple.com
+
+; <<>> DiG 9.20.2-1-Debian <<>> AXFR upm.es @galileo.ccupm.upm.es
+;; global options: +cmd
+; Transfer failed.
+
+; <<>> DiG 9.20.2-1-Debian <<>> AXFR ole.com.ar @cash.ns.cloudflare.com
+;; global options: +cmd
+; Transfer failed.
+;; communications error to 81.47.201.19#53: timed out
+;; communications error to 81.47.201.19#53: timed out
+;; communications error to 81.47.201.19#53: timed out
+
+; <<>> DiG 9.20.2-1-Debian <<>> AXFR telefonica.com @dns1.movistar.es
+;; global options: +cmd
+;; no servers could be reached
+
+; <<>> DiG 9.20.2-1-Debian <<>> AXFR apple.com @a.ns.apple.com
+;; global options: +cmd
+; Transfer failed.
+                                                                                                                                                          
+┌──(kali㉿kali)-[~/Desktop/auts/4.2.5]
+└─$ # Use nslookup or dig to get detailed DNS server information
+nslookup -type=NS upm.es
+nslookup -type=NS ole.com.ar
+nslookup -type=NS telefonica.com
+nslookup -type=NS apple.com
+Server:         80.58.61.250
+Address:        80.58.61.250#53
+
+Non-authoritative answer:
+upm.es  nameserver = einstein.ccupm.upm.es.
+upm.es  nameserver = sun.rediris.es.
+upm.es  nameserver = chico.rediris.es.
+upm.es  nameserver = galileo.ccupm.upm.es.
+
+Authoritative answers can be found from:
+sun.rediris.es  internet address = 199.184.182.1
+sun.rediris.es  has AAAA address 2620:171:808::1
+chico.rediris.es        internet address = 162.219.54.2
+chico.rediris.es        has AAAA address 2620:10a:80eb::2
+
+Server:         80.58.61.250
+Address:        80.58.61.250#53
+
+Non-authoritative answer:
+ole.com.ar      nameserver = vita.ns.cloudflare.com.
+ole.com.ar      nameserver = cash.ns.cloudflare.com.
+
+Authoritative answers can be found from:
+cash.ns.cloudflare.com  internet address = 173.245.59.81
+cash.ns.cloudflare.com  internet address = 172.64.33.81
+cash.ns.cloudflare.com  internet address = 108.162.193.81
+cash.ns.cloudflare.com  has AAAA address 2606:4700:58::adf5:3b51
+cash.ns.cloudflare.com  has AAAA address 2803:f800:50::6ca2:c151
+cash.ns.cloudflare.com  has AAAA address 2a06:98c1:50::ac40:2151
+vita.ns.cloudflare.com  internet address = 173.245.58.238
+vita.ns.cloudflare.com  internet address = 172.64.32.238
+vita.ns.cloudflare.com  internet address = 108.162.192.238
+vita.ns.cloudflare.com  has AAAA address 2803:f800:50::6ca2:c0ee
+vita.ns.cloudflare.com  has AAAA address 2a06:98c1:50::ac40:20ee
+vita.ns.cloudflare.com  has AAAA address 2606:4700:50::adf5:3aee
+
+Server:         80.58.61.250
+Address:        80.58.61.250#53
+
+Non-authoritative answer:
+telefonica.com  nameserver = dns1.movistar.es.
+telefonica.com  nameserver = dns2.movistar.es.
+
+Authoritative answers can be found from:
+dns1.movistar.es        internet address = 81.47.201.19
+dns2.movistar.es        internet address = 81.47.201.27
+
+Server:         80.58.61.250
+Address:        80.58.61.250#53
+
+Non-authoritative answer:
+apple.com       nameserver = b.ns.apple.com.
+apple.com       nameserver = c.ns.apple.com.
+apple.com       nameserver = d.ns.apple.com.
+apple.com       nameserver = a.ns.apple.com.
+
+Authoritative answers can be found from:
+a.ns.apple.com  internet address = 17.253.200.1
+a.ns.apple.com  has AAAA address 2620:149:ae0::53
+b.ns.apple.com  internet address = 17.253.207.1
+b.ns.apple.com  has AAAA address 2620:149:ae7::53
+c.ns.apple.com  internet address = 204.19.119.1
+c.ns.apple.com  has AAAA address 2620:171:800:714::1
+d.ns.apple.com  internet address = 204.26.57.1
+d.ns.apple.com  has AAAA address 2620:171:801:714::1
+                                                                                                                        
+┌──(kali㉿kali)-[~/Desktop/auts/4.2.5]
+└─$ ./script.sh       
+Analyzing upm.es:
+DNSSEC Support:
+138.100.200.6
+Nameservers:
+chico.rediris.es.
+galileo.ccupm.upm.es.
+einstein.ccupm.upm.es.
+sun.rediris.es.
+Zone Transfer Test:
+
+; <<>> DiG 9.20.2-1-Debian <<>> AXFR upm.es
+;; global options: +cmd
+; Transfer failed.
+------------------------
+Analyzing ole.com.ar:
+DNSSEC Support:
+104.18.23.45
+0.0.0.0
+Nameservers:
+cash.ns.cloudflare.com.
+vita.ns.cloudflare.com.
+Zone Transfer Test:
+
+; <<>> DiG 9.20.2-1-Debian <<>> AXFR ole.com.ar
+;; global options: +cmd
+; Transfer failed.
+------------------------
+Analyzing telefonica.com:
+DNSSEC Support:
+;; communications error to 80.58.61.250#53: timed out
+;; communications error to 80.58.61.250#53: timed out
+;; communications error to 80.58.61.250#53: timed out
+;; communications error to 80.58.61.254#53: timed out
+;; no servers could be reached
+Nameservers:
+dns1.movistar.es.
+dns2.movistar.es.
+Zone Transfer Test:
+
+; <<>> DiG 9.20.2-1-Debian <<>> AXFR telefonica.com
+;; global options: +cmd
+; Transfer failed.
+------------------------
+Analyzing apple.com:
+DNSSEC Support:
+17.253.144.10
+Nameservers:
+b.ns.apple.com.
+c.ns.apple.com.
+d.ns.apple.com.
+a.ns.apple.com.
+Zone Transfer Test:
+
+; <<>> DiG 9.20.2-1-Debian <<>> AXFR apple.com
+;; global options: +cmd
+; Transfer failed.
+------------------------
+                             
