@@ -150,6 +150,7 @@ c.ns.apple.com  internet address = 204.19.119.1
 c.ns.apple.com  has AAAA address 2620:171:800:714::1
 d.ns.apple.com  internet address = 204.26.57.1
 d.ns.apple.com  has AAAA address 2620:171:801:714::1
+        
                                                                                                                         
 ┌──(kali㉿kali)-[~/Desktop/auts/4.2.5]
 └─$ ./script.sh       
