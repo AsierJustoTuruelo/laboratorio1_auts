@@ -1,0 +1,30 @@
+┌──(kali㉿kali)-[~]
+└─$ dig -x 143.228.181.132                                         
+
+; <<>> DiG 9.20.2-1-Debian <<>> -x 143.228.181.132
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22492
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;132.181.228.143.in-addr.arpa.  IN      PTR
+
+;; ANSWER SECTION:
+132.181.228.143.in-addr.arpa. 300 IN    PTR     origin-www.house.gov.
+132.181.228.143.in-addr.arpa. 300 IN    PTR     www.house.gov.
+
+;; Query time: 516 msec
+;; SERVER: 80.58.61.250#53(80.58.61.250) (UDP)
+;; WHEN: Mon Dec 02 15:44:10 EST 2024
+;; MSG SIZE  rcvd: 109
+
+                                                                                                                                                          
+┌──(kali㉿kali)-[~]
+└─$ nslookup 143.228.181.132
+132.181.228.143.in-addr.arpa    name = origin-www.house.gov.
+132.181.228.143.in-addr.arpa    name = www.house.gov.
+
+Authoritative answers can be found from:
