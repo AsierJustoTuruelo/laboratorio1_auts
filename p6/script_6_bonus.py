@@ -23,7 +23,7 @@ class EmailExtractorP6:
         }
         
         try:
-            time.sleep(0.5)  # Reducir retardo
+            time.sleep(2)  # Retardo para evitar rate limiting
             response = requests.get(url, headers=headers, timeout=5)
             response.raise_for_status()
             return response.text
@@ -116,7 +116,7 @@ class EmailExtractorP6:
         
         return [email.lower() for email in set(emails) if is_valid_email(email)]
 
-    def save_to_csv(self, emails, filename='emails_recursivo.csv'):
+    def save_to_csv(self, emails, filename='emails_p6_bonus.csv'):
         """Guardar emails en archivo CSV"""
         with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
             csv_writer = csv.writer(csvfile)
@@ -127,8 +127,8 @@ class EmailExtractorP6:
 def main():
     url = "https://www.etsisi.upm.es/escuela/dptos/dpto_per?id_dpto=SI"
     
-    # Crear extractor
-    extractor = EmailExtractorP6(url, max_workers=5, max_depth=2)
+    # Crear extractor (ajustar max_workers y max_depth según necesidad)
+    extractor = EmailExtractorP6(url, max_workers=10, max_depth=2)
     
     # Extraer emails
     emails = extractor.recursive_email_extraction()
