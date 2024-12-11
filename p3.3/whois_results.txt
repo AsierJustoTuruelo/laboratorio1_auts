@@ -1,0 +1,308 @@
+Resultados de Whois:
+----------------------------------------
+Dominio: rock.com.ar
+% La información a la que estás accediendo se provee exclusivamente para
+% fines relacionados con operaciones sobre nombres de dominios y DNS,
+% quedando absolutamente prohibido su uso para otros fines.
+%
+% La DIRECCIÓN NACIONAL DEL REGISTRO DE DOMINIOS DE INTERNET es depositaria
+% de la información que los usuarios declaran con la sola finalidad de
+% registrar nombres de dominio en ‘.ar’, para ser publicada en el sitio web
+% de NIC Argentina.
+%
+% La información personal que consta en la base de datos generada a partir
+% del sistema de registro de nombres de dominios se encuentra amparada por
+% la Ley N° 25326 “Protección de Datos Personales” y el Decreto
+% Reglamentario 1558/01.
+
+domain:		rock.com.ar
+registrant:	20227072556
+registrar:	nicar
+registered:	2005-10-07 00:00:00
+changed:	2024-09-23 12:53:02.375811
+expire:		2025-10-07 00:00:00
+
+contact:	20227072556
+name:		GASSI DIEGO EDUARDO
+registrar:	nicar
+created:	2013-08-19 00:00:00
+changed:	2024-11-09 12:26:50.557203
+
+nserver:	roan.ns.cloudflare.com ()
+nserver:	gemma.ns.cloudflare.com ()
+registrar:	nicar
+created:	2016-07-01 00:27:17.633582
+
+
+----------------------------------------
+----------------------------------------
+Dominio: gob.es
+This TLD has no whois server, but you can access the whois database at
+https://www.dominios.es/en
+----------------------------------------
+----------------------------------------
+Dominio: telefonica.com
+   Domain Name: TELEFONICA.COM
+   Registry Domain ID: 64302_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.acens.net
+   Registrar URL: https://www.acens.com
+   Updated Date: 2024-03-25T08:53:07Z
+   Creation Date: 1996-05-03T04:00:00Z
+   Registry Expiry Date: 2025-05-04T04:00:00Z
+   Registrar: Acens Technologies, S.L.U.
+   Registrar IANA ID: 140
+   Registrar Abuse Contact Email: abuse@acens.net
+   Registrar Abuse Contact Phone: 91 141 85 83
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: DNS1.MOVISTAR.ES
+   Name Server: DNS2.MOVISTAR.ES
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2024-12-11T09:44:49Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+
+Domain Name: telefonica.com
+Registrar WHOIS Server: whois.acens.net
+Registrar URL: http://www.acens.com/
+Updated Date: 2024-03-25T09:53:07Z
+Creation Date: 1996-05-03T06:00:00Z
+Registrar Registration Expiration Date: 2025-05-04T06:00:00Z
+Registrar: acens Technologies, S.L.U.
+Registrar IANA ID: 140
+Registrar Abuse Contact Email: abuse@acens.net
+Registrar Abuse Contact Phone:+34.911418583
+Domain Status: serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited http://www.icann.org/epp#serverUpdateProhibited
+Registrant Organization: TELEFONICA, S.A.
+Registrant State/Province: MADRID
+Registrant Country : ES
+Registrant Email: https://rdap.acens.net/rdap-contact/?token=ZZ8bVurZjF5clrJOK6DxGBWj%2FLFzK%2BdWF%2FAmU6ylXmCFZF9H7dsJTGJCu3T4RlCi
+Name Server: dns1.movistar.es
+Name Server: dns2.movistar.es
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/ 
+>>> Last update of WHOIS database:2024-03-25T09:53:07Z<<<
+For more information on Whois status codes, please visit 
+https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en 
+
+acens's WHOIS database is provided by acens Technologies for information
+purposes only, proving information about or related to a domain name
+registration record.
+Acens makes this information available "as is," and does not guarantee
+its accuracy.
+By submitting a WHOIS query, you agree that you will use this data only for
+lawful purposes and that, under no circumstances will you use this data to:
+(1) allow, enable, or otherwise support the transmission of mass unsolicited,
+commercial advertising or solicitations via direct mail, electronic mail, or
+by telephone; or (2) enable high volume, automated, electronic processes that
+apply to acens (or its systems).  The compilation, repackaging,
+dissemination or other use of this data is expressly prohibited without the
+prior written consent of acens.
+acens  reserves the right to modify these terms at any time. By
+submitting this query, you agree to abide by these terms.
+NOTE: THE WHOIS DATABASE IS A CONTACT DATABASE ONLY. LACK OF A DOMAIN RECORD
+
+----------------------------------------
+----------------------------------------
+Dominio: apple.com
+   Domain Name: APPLE.COM
+   Registry Domain ID: 1225976_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.comlaude.com
+   Registrar URL: http://www.comlaude.com
+   Updated Date: 2023-08-28T18:33:11Z
+   Creation Date: 1987-02-19T05:00:00Z
+   Registry Expiry Date: 2025-02-20T05:00:00Z
+   Registrar: Nom-iq Ltd. dba COM LAUDE
+   Registrar IANA ID: 470
+   Registrar Abuse Contact Email: abuse@comlaude.com
+   Registrar Abuse Contact Phone: +442074218250
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: A.NS.APPLE.COM
+   Name Server: B.NS.APPLE.COM
+   Name Server: C.NS.APPLE.COM
+   Name Server: D.NS.APPLE.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2024-12-11T09:44:49Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+Domain Name: apple.com
+Registry Domain ID: 1225976_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.comlaude.com
+Registrar URL: https://www.comlaude.com
+Updated Date: 2024-11-11T15:07:07Z
+Creation Date: 1987-02-19T05:00:00Z
+Registrar Registration Expiration Date: 2025-02-20T00:00:00Z
+Registrar: NOM-IQ Ltd dba Com Laude
+Registrar IANA ID: 470
+Domain Status: clientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited
+Domain Status: serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: Domain Administrator
+Registrant Organization: Apple Inc.
+Registrant Street: One Apple Park Way
+Registrant City: Cupertino
+Registrant State/Province: CA
+Registrant Postal Code: 95014
+Registrant Country: US
+Registrant Phone: +1.4089961010
+Registrant Phone Ext: 
+Registrant Fax: 
+Registrant Fax Ext: 
+Registrant Email: domains@apple.com
+Registry Admin ID: 
+Admin Name: Domain Administrator
+Admin Organization: Apple Inc.
+Admin Street: One Apple Park Way
+Admin City: Cupertino
+Admin State/Province: CA
+Admin Postal Code: 95014
+Admin Country: US
+Admin Phone: +1.4089961010
+Admin Phone Ext: 
+Admin Fax: 
+Admin Fax Ext: 
+Admin Email: domains@apple.com
+Registry Tech ID: 
+Tech Name: Domain Administrator
+Tech Organization: Apple Inc.
+Tech Street: 1 Infinite Loop
+Tech City: Cupertino
+Tech State/Province: CA
+Tech Postal Code: 95014
+Tech Country: US
+Tech Phone: +1.4089961010
+Tech Phone Ext: 
+Tech Fax: 
+Tech Fax Ext: 
+Tech Email: domains@apple.com
+Name Server: a.ns.apple.com
+Name Server: b.ns.apple.com
+Name Server: c.ns.apple.com
+Name Server: d.ns.apple.com
+DNSSEC: Unsigned Delegation
+Registrar Abuse Contact Email: abuse@comlaude.com
+Registrar Abuse Contact Phone: +44.2074218250
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2024-12-11T08:40:16Z <<<
+
+For more information on Whois status codes, please visit https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en
+
+Please query the RDDS service of the Registrar of Record identified in this
+output for information on how to contact the Registrant, Admin, or Tech contact
+of the queried domain name.
+
+-------------------------------------------------------------------------------
+Com Laude registers, maintains and renews domain names around the world for 
+leading intellectual property owners and the law firms that support them.   
+If you have queries about this domain, you may contact us via our website   
+at www.comlaude.com.                                                        
+-------------------------------------------------------------------------------
+
+The data in the Com Laude Whois database is provided to assist you in obtaining
+information about a domain name registration record.  Com Laude makes this
+information available "as is," and does not guarantee its accuracy.
+By submitting a WHOIS query, you agree that you will use this data only for
+lawful purposes and that, under no circumstances will you use this data to:
+
+(1) allow, enable, or otherwise support the transmission of mass unsolicited,
+commercial advertising or solicitations via e-mail (spam), telephone or fax; or
+(2) enable high volume, automated, electronic processes that that send queries
+or data to Com Laude or the systems of any Registry Operator or ICANN-Accredited
+registrar.  The compilation, repackaging, dissemination or other use of this 
+data is expressly prohibited without the prior written consent of Com Laude.
+
+Com Laude reserves the right to modify these terms at any time. By submitting
+this query, you agree to abide by these terms. If you fail to abide by this
+policy, we may terminate your access to this WHOIS database.
+
+-------------------------------------------------------------------------------
+Com Laude protects intellectual property in the domain name system. Com Laude
+only registers domain names for legitimate rights owners. Should you have any 
+queries about the legitimacy of this name or our work as a UK based, ICANN 
+Accredited Registrar, contact us at:
+Com Laude, 28 Little Russell Street, London WC1A 2HN, UK.
+Com Laude is a business name of Nom IQ Ltd.
+-------------------------------------------------------------------------------
+
+----------------------------------------
