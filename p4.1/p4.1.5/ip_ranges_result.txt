@@ -1,0 +1,171 @@
+==================================================
+DNS AUDIT REPORT - 2024-12-11 05:24:19
+==================================================
+
+Domain: apple.com
+------------------------------
+MX Records:
+  - 20 mx-in-rn.apple.com.
+  - 20 mx-in-sg.apple.com.
+  - 20 mx-in-hfd.apple.com.
+  - 20 mx-in-mdn.apple.com.
+  - 20 mx-in-vib.apple.com.
+  - 10 mx-in.g.apple.com.
+  - 20 mx-in-ma.apple.com.
+
+A Records:
+  - 17.253.144.10
+
+IP Address Ranges:
+  - 17.253.144.10: 17.0.0.0 - 17.255.255.255
+
+Name Servers:
+  - c.ns.apple.com.
+  - d.ns.apple.com.
+  - a.ns.apple.com.
+  - b.ns.apple.com.
+
+TXT Records:
+  - "cisco-ci-domain-verification=6f3bfb849796a518061f8e8c4356f687a138502d86db742791685059176547dd"
+  - "atlassian-domain-verification=mLabq99iaT8kquJechF6l31FAYoNUe3WB7tLpLFUiUYVJCse9SKq83hOJzFkwqrh"
+  - "json:eyJ3aHkiOiJUaGlzIGlzIHRvIHRydW5jYXRlIFVEUCByZXNwb25zZXMgZm9yIFRYVCBxdWVyaWVzIHRvIGFwcGxlLmNvbSIsInBhZGRpbmciOiJpZW4wYWVHaGF0aG9oNmhhaHZpZWphaTNlYXkwYWh2YWhjaGFocXVhZWxlZTBZdWw0cGhpZXRoMHNvNXZpZXllZWNvaDRpZThzaGVlcGllVDNwYWVjaGVpVjZqb2h3aWVwaG82In0K"
+  - "json:eyJ3aHkiOiJUaGlzIGlzIHRvIHRydW5jYXRlIFVEUCByZXNwb25zZXMgZm9yIFRYVCBxdWVyaWVzIHRvIGFwcGxlLmNvbSIsInBhZGRpbmciOiJxdWFoMGVpamFhNGVlajh0aWVkYWlnaG9jZWljaGFlOGVUb3ppZTVmdTVhaFRoMldlaU00aWsyaHVxdThpZXBoaWVxdW9oc2hlaXBhZWdoOUthZWw3b2NoaWVuZ2llem9lc2g1In0K"
+  - "77a4a6de-da14-449c-83c4-85366e0f55f9"
+  - "apple-domain-verification=X5Jt76bn3Dnmgzjj"
+  - "cerner-client-id=22dd1d8a-5e8b-4e1e-80ef-39bcdfd42798"
+  - "cerner-client-id=ce3abf18-ee87-43b9-9927-9eb24b4bac4a"
+  - "ValidationTokenValue=77a4a6de-da14-449c-83c4-85366e0f55f9"
+  - "miro-verification=2494d255c4c50b1e521650a0659cbf3fa08b0072"
+  - "facebook-domain-verification=n6cqjfucq6plswmtfbwnbbeu1qiq3v"
+  - "v=spf1 include:_spf.apple.com include:_spf-txn.apple.com ~all"
+  - "adobe-idp-site-verification=6bd5e74c-a3a0-4781-b2e1-e95399b5e11c"
+  - "webexdomainverification.8C462=b728ec3f-dfc9-42f9-92cb-9ba8853cbee8"
+  - "yahoo-verification-key=Ay+djyw0qWQgXKWGA/jstjYryTMrKb+PBXI5l8u5/jw="
+  - "google-site-verification=8M6XjQCzydT62jk8HY3VXPAG-nKDllTRV-JpA3-Ktyw"
+  - "google-site-verification=L5kkMdiFI8npvb6KlHui84fJaCw5G64DWhaDRIAT4_c"
+  - "google-site-verification=zBSq1mG5ssu2If-C17UAz_MzSZDcx03MVxmeDwMNc5w"
+  - "Dynatrace-site-verification=7d881a7c-c13f-4146-9d27-2731459e2509__iqls0105tagglcsaul0m16ibrf"
+
+WHOIS Information:
+  Registrar: N/A
+  Creation Date: N/A
+  Expiration Date: N/A
+
+------------------------------
+
+Domain: upm.es
+------------------------------
+MX Records:
+  - 10 mxb-006a4e02.gslb.pphosted.com.
+  - 10 mxa-006a4e02.gslb.pphosted.com.
+
+A Records:
+  - 138.100.200.6
+
+IP Address Ranges:
+  - 138.100.200.6: 138.100.0.0 - 138.100.255.255
+
+Name Servers:
+  - chico.rediris.es.
+  - einstein.ccupm.upm.es.
+  - sun.rediris.es.
+  - galileo.ccupm.upm.es.
+
+TXT Records:
+  - "google-site-verification=kyLi0sqtQFX8lC_hfvIa3rpHLLHmAm7CYLYRdqKB8o8"
+  - "v=spf1 ip4:138.100.198.70/31 include:spf.puc.rediris.es include:spf.protection.outlook.com -all"
+  - "ZOOM_verify_JyS9mzjlR9qlhzy8CchciQ"
+  - "MS=ms92863215"
+  - "adobe-idp-site-verification=a21b9e2e-91fc-44d1-b66b-f7c3588d6b69"
+
+WHOIS Information:
+  Registrar: N/A
+  Creation Date: N/A
+  Expiration Date: N/A
+
+------------------------------
+
+Domain: ole.com.ar
+------------------------------
+MX Records:
+  - 5 ole-com-ar.mail.protection.outlook.com.
+
+A Records:
+  - 104.18.22.45
+  - 104.18.23.45
+
+IP Address Ranges:
+  - 104.18.22.45: 104.16.0.0 - 104.31.255.255
+  - 104.18.23.45: 104.16.0.0 - 104.31.255.255
+
+Name Servers:
+  - vita.ns.cloudflare.com.
+  - cash.ns.cloudflare.com.
+
+TXT Records:
+  - "facebook-domain-verification=1boref8liaytvp0holf371cdmzdyr2"
+  - "google-site-verification=33VOi6ol38Y3IPh9L-qfIbAvbYZ1Q1v1U696CbeU6hg"
+  - "v=spf1 mx mx:smtp.agea.com.ar ip4:200.42.143.173 ip4:200.42.143.186 ip4:64.15.158.19 ip4:190.228.48.20 ip4:174.143.244.69 ip4:174.143.244.41 ip4:174.143.243.40 include:spf.planisys.net include:spf.protection.outlook.com -all"
+  - "71c31ea93ab34d88bbf2148f96c44e11"
+  - "Jvv9CR77/vhqK/3y5RW6buM2Typ9rvJ5ppV8wDe4iT8su406WddMS6+kJ4xKoIGBap3qfD8sfKZbmELacQHS6w=="
+
+WHOIS Information:
+  Registrar: N/A
+  Creation Date: N/A
+  Expiration Date: N/A
+
+------------------------------
+
+Domain: telefonica.com
+------------------------------
+MX Records:
+  - 10 telefonicacorp.mail.protection.outlook.com.
+
+A Records:
+  - 141.101.90.96
+  - 141.101.90.99
+  - 141.101.90.98
+  - 141.101.90.97
+
+IP Address Ranges:
+  - 141.101.90.96: 141.101.88.0 - 141.101.95.255
+  - 141.101.90.99: 141.101.88.0 - 141.101.95.255
+  - 141.101.90.98: 141.101.88.0 - 141.101.95.255
+  - 141.101.90.97: 141.101.88.0 - 141.101.95.255
+
+Name Servers:
+  - dns2.movistar.es.
+  - dns1.movistar.es.
+
+TXT Records:
+  - "google-site-verification=Ixj2gGouZk6BclvESIgsaC8xi3We-VTmaEtsAYt3oM8"
+  - "MS=ms26661359"
+  - "Dynatrace-site-verification=271f89e9-8547-4eee-b8af-74df8fa3fc42__n96q00uhusltc6q0cjph06virh"
+  - "ryzm8075zb9zl7wnysw50mtr4xtjj4c0"
+  - "docusign=ccf8cd63-a110-47d2-850a-c58d00f77307"
+  - "adobe-idp-site-verification=1d948877d816d67d236bb565a2751d1ad668a960ca94dcc71e8efee0c283c07d"
+  - "j7n41qgm1hz1t0h427g3dgh55yr2958x"
+  - "atlassian-domain-verification=rsDW7pl9RJEc3lhddx7NWHtRpRK2vayrLrXRjfQWjoFPlJLoeVKdYyQRoav1RVvZ"
+  - "ca3-fee0bc7b0935406286a2387079525c92"
+  - "ca3-dd59b996d44642cfbb89b249053ba4e8"
+  - "cisco-ci-domain-verification=43044959dda4aa3b651693507d3bc50f6a4fff1364468afe2147bb1c08752af8"
+  - "thpkj13k5tf44drmvl3dgjmjn8wqmlnx"
+  - "asv=ac4e24b22a4ecb6e5083c9c101603ca3"
+  - "miro-verification=484df1c42a8e54782fa9c53cfb0ba445b73f8989"
+  - "duo_sso_verification=vttmxux8lTuAA9B2rBPuYI8gA1vrlak8DYWWw6Fqa2JqcQ6OOo3b0vKbcTnX9TC9"
+  - "5LWSB345TVM11C21H7QPETCIHHKHRFGMHA13UZ2A"
+  - "atlassian-domain-verification=ing1A7avxPj1F7x9uMFgg4sDsxhBpfcSdNEDaf2fwVA7DKYPv2JiKO4DYkHkk0uA"
+  - "autodesk-domain-verification=UY9zZII1FZYOxKti-SEp"
+  - "v=spf1 include:spf.protection.outlook.com include:_spf.telefonica.com include:_spf.salesforce.com -all"
+  - "5guJkSLmRRO+gzN3KM7iqT3nPmgBjRkhrMXfpTEUzEc="
+  - "apple-domain-verification=BE9Q490VGlMkXk3C"
+  - "n1Cpo7LHwhJyXTpjia0PKngAL3fZnJlA9p6E1luJi/8="
+  - "facebook-domain-verification=106038aov5nogh9i0byrp8gdkprlgh"
+  - "facebook-domain-verification=gdpk00mebqepapr7cyozpoqzmm8sa2"
+
+WHOIS Information:
+  Registrar: N/A
+  Creation Date: N/A
+  Expiration Date: N/A
+
+------------------------------
