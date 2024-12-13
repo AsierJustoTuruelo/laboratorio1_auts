@@ -1,0 +1,148 @@
+siu-test.upm.es -> 138.100.1.21
+correo.upm.es -> 138.100.4.176
+cait.upm.es -> 138.4.144.5
+agenda.upm.es -> No se pudo resolver
+grys.upm.es -> No se pudo resolver
+moodlepruebas.upm.es -> 138.100.200.88
+industriales.upm.es -> 138.100.73.2
+edificacion.upm.es -> 138.100.109.110
+grc.upm.es -> 138.100.52.92
+acceso.upm.es -> 138.100.200.72
+egidatest.upm.es -> 138.100.4.17
+openproject.upm.es -> 138.100.198.154
+upmlaser.upm.es -> 138.100.200.9
+oa.upm.es -> 138.100.200.56
+serviciosgate.upm.es -> 138.100.6.213
+sso.upm.es -> No se pudo resolver
+siupruebas.upm.es -> No se pudo resolver
+ldap.upm.es -> 138.100.200.17
+apps.upm.es -> 138.100.200.21
+test-sectigo.upm.es -> No se pudo resolver
+etsiinf.upm.es -> 138.100.243.16
+ingenio.upm.es -> 216.147.215.200
+inef.upm.es -> No se pudo resolver
+vish.upm.es -> No se pudo resolver
+agmovil.upm.es -> 138.100.254.20
+e-administracion.upm.es -> 138.100.200.42
+directorio.upm.es -> 138.100.200.80
+etsisi.upm.es -> 138.100.152.2
+citsem.upm.es -> No se pudo resolver
+uxxiac.upm.es -> 138.100.200.74
+grupos.upm.es -> No se pudo resolver
+moodle.upm.es -> 138.100.200.11
+portafirmas.upm.es -> 138.100.200.115
+uxxiec.upm.es -> 138.100.200.76
+collab.upm.es -> No se pudo resolver
+ceigram.upm.es -> 138.4.92.216
+adfspruebas.upm.es -> 138.100.2.101
+inventarioespacios.upm.es -> 138.100.200.101
+campussur.upm.es -> 138.100.200.9
+ssop.upm.es -> No se pudo resolver
+portaldecompras.upm.es -> 138.100.200.99
+empleo.upm.es -> 5.175.40.174
+software.upm.es -> 138.100.3.55
+goc.upm.es -> 138.100.200.106
+automatriculap.upm.es -> 138.100.200.71
+git.upm.es -> 138.100.3.80
+cedint.upm.es -> No se pudo resolver
+3comwx.upm.es -> 138.100.204.11
+3dlabs.upm.es -> 138.100.6.221
+prueba1-sectigo.upm.es -> No se pudo resolver
+leosweep.upm.es -> No se pudo resolver
+automatricula.upm.es -> 138.100.200.70
+montegancedo.upm.es -> 138.100.200.9
+decatech.upm.es -> No se pudo resolver
+cime.upm.es -> 138.100.6.231
+accesop.upm.es -> 138.100.200.73
+uxxissop.upm.es -> 138.100.200.32
+euita.upm.es -> No se pudo resolver
+ainnovation.upm.es -> 138.100.11.1
+dma.upm.es -> 138.100.6.231
+sw.upm.es -> 138.100.4.13
+iptc.upm.es -> 138.4.40.4
+sede.upm.es -> 138.100.200.108
+rds.upm.es -> 138.100.200.14
+solidario.upm.es -> 138.100.6.231
+admision-doctorado.upm.es -> No se pudo resolver
+presupuestos.upm.es -> 138.100.3.45
+sedep.upm.es -> 138.100.200.103
+docentia.upm.es -> 138.100.4.70
+up4solutions.upm.es -> No se pudo resolver
+vpnssl.upm.es -> 138.100.255.9
+arce.upm.es -> No se pudo resolver
+i2a2.upm.es -> 138.4.92.146
+listas.upm.es -> 138.100.4.55
+uxxissod.upm.es -> No se pudo resolver
+rrhh.upm.es -> 138.100.200.65
+drivetest.upm.es -> 138.100.4.12
+ies.upm.es -> 138.100.200.9
+moodlehistorico.upm.es -> 138.100.200.41
+www2.upm.es -> 138.100.200.6
+salasrectorado.upm.es -> 138.4.250.1
+gestionweb.upm.es -> 138.100.200.7
+sede-electronica.upm.es -> 138.100.200.10
+smtp.upm.es -> 138.100.200.13
+gsi.upm.es -> 138.4.92.161
+www.upm.es -> 138.100.200.6
+uxxisso.upm.es -> 138.100.200.31
+agri4ds.upm.es -> 138.4.136.87
+dwp.upm.es -> 138.100.2.20
+servicios.upm.es -> 138.100.200.55
+etsidi.upm.es -> 138.100.200.9
+drive.upm.es -> 138.100.4.11
+dit.upm.es -> 138.4.2.56
+dmae.upm.es -> 138.4.112.195
+oasp.upm.es -> No se pudo resolver
+admision.upm.es -> 138.100.200.9
+clyt.upm.es -> 82.223.65.214
+digym.upm.es -> 138.100.6.231
+topografia.upm.es -> 138.100.200.9
+itd.upm.es -> 178.211.133.30
+wp.upm.es -> 138.100.200.82
+vpn.upm.es -> 138.100.255.8
+eusoc.upm.es -> 138.4.132.194
+portafirmas-pre.upm.es -> 138.100.200.114
+ldappruebas.upm.es -> 138.100.200.16
+invitadosrectorado.upm.es -> 138.4.250.1
+sostenibilidad.upm.es -> 138.100.6.231
+lenguas.upm.es -> 138.100.6.231
+consigna.upm.es -> No se pudo resolver
+certint01.upm.es -> 138.100.199.222
+uac.upm.es -> No se pudo resolver
+uxxiacp.upm.es -> 138.100.200.75
+siu.upm.es -> 138.100.200.90
+directoriopruebas.upm.es -> 138.100.200.79
+etsist.upm.es -> 138.100.52.111
+geco.upm.es -> 138.100.200.7
+adamadrid.upm.es -> 138.4.210.6
+caminos.upm.es -> 138.100.67.133
+fi.upm.es -> 138.100.243.16
+innopro.upm.es -> No se pudo resolver
+cesvima.upm.es -> 138.4.110.5
+specmanager.upm.es -> 138.100.3.26
+etsit.upm.es -> 138.4.51.123
+contratacion.upm.es -> 138.100.200.92
+des.upm.es -> 138.100.200.91
+aq.upm.es -> No se pudo resolver
+coie.upm.es -> No se pudo resolver
+blogs.upm.es -> 138.100.6.231
+software-dev.upm.es -> No se pudo resolver
+jabber.upm.es -> No se pudo resolver
+vpnsslpruebas.upm.es -> 138.100.253.6
+montes.upm.es -> No se pudo resolver
+loep.upm.es -> No se pudo resolver
+dcta.upm.es -> 138.4.92.195
+etsin.upm.es -> No se pudo resolver
+portalvpn.upm.es -> 138.100.200.9
+oas.upm.es -> No se pudo resolver
+etsiaab.upm.es -> 138.100.200.9
+uxxiecp.upm.es -> 138.100.200.77
+eventos.upm.es -> 52.212.198.221
+52.48.59.170
+176.34.85.136
+transparencia.upm.es -> 138.100.200.9
+aprendizajeservicio.upm.es -> 138.4.89.15
+innovacioneducativa.upm.es -> 138.4.89.5
+collaborate.upm.es -> No se pudo resolver
+dw.upm.es -> 138.100.200.27
+montesymedionatural.upm.es -> 138.100.124.26
