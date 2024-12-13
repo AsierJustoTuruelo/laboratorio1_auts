@@ -21,17 +21,39 @@ with open("filtrados.txt", "w") as output:
     for dominio in filtrados_unicos:
         output.write(dominio + "\n")
 
-# Expresión regular para capturar direcciones IP
+# Resolver los dominios a IPs usando dig
+print("Resolviendo dominios a direcciones IP...")
 ip_pattern = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
 
-# Realizar un escaneo de Nmap en cada dominio filtrado
-print("Ejecutando nmap...")
 with open("ips_con_mascara.txt", "w") as output:
     for dominio in filtrados_unicos:
-        result = subprocess.run(f"nmap -sn {dominio}", shell=True, capture_output=True, text=True)
-        ips = ip_pattern.findall(result.stdout)
-        for ip in ips:
-            output.write(f"{ip}\n")
-            print(ip)
+        try:
+            # Resolver el dominio a IP usando dig
+            result = subprocess.run(f"dig +short {dominio}", shell=True, capture_output=True, text=True)
+            ips = ip_pattern.findall(result.stdout)
+
+            if ips:
+                for ip in ips:
+                    # Consultar detalles de la IP con whois para obtener la máscara
+                    whois_result = subprocess.run(f"whois {ip}", shell=True, capture_output=True, text=True)
+                    whois_data = whois_result.stdout
+
+                    # Buscar el rango CIDR en la salida de whois
+                    cidr_match = re.search(r'CIDR:\s*([\d./]+)', whois_data)
+                    if cidr_match:
+                        cidr = cidr_match.group(1)
+                    else:
+                        # Alternativa para máscaras dentro del bloque inetnum
+                        inetnum_match = re.search(r'inetnum:\s*([\d./]+)', whois_data)
+                        cidr = inetnum_match.group(1) if inetnum_match else "Máscara no encontrada"
+
+                    # Guardar el resultado
+                    output.write(f"{dominio} -> {ip} -> {cidr}\n")
+                    print(f"{dominio} -> {ip} -> {cidr}")
+            else:
+                output.write(f"{dominio} -> No se resolvió\n")
+                print(f"{dominio} -> No se resolvió")
+        except Exception as e:
+            print(f"Error resolviendo {dominio}: {e}")
 
 print("Proceso completado. Resultados guardados en 'ips_con_mascara.txt'")
