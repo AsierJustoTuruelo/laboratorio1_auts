@@ -1,8 +1,8 @@
 #!/bin/bash
 # Archivo de entrada con los dominios
-input_file="dominios_upm_nivel1.txt"
+input_file="dominios_upm_full.txt"
 # Archivo de salida para guardar los resultados
-output_file="ips_resultados_nivel1.txt"
+output_file="ips_resultados_full.txt"
 
 # Limpiar el archivo de salida si ya existe
 > "$output_file"
